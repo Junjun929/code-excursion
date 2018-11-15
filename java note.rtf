@@ -1,11 +1,11 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww23700\viewh6320\viewkind1\viewscale144
+\paperw11900\paperh16840\margl1440\margr1440\vieww16700\viewh6020\viewkind1
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Java Script. \
+\f0\fs26 \cf0 Java Script. \
 \
 <logical operators>\
 && and\
@@ -67,8 +67,7 @@ It can pass another function to it as an argument.\
 Ex)  function sayHi( ) \{\
 console.log("helloooo")\
 \}\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li0\pardirnatural\partightenfactor0
-\cf0 setInterval(sayHi, 3000) -> in this way 'setInterval' uses sayHi as an argument.\
+setInterval(sayHi, 3000) -> in this way 'setInterval' uses sayHi as an argument.\
 \
 \
 <array>\
@@ -76,4 +75,30 @@ console.log("helloooo")\
 Indexed starting at 0.  Can hold any type of data. \
 To make an array.\
 1. Var name = [];\
-2.Var name = new Array( ) -> a function.}
+2.Var name = new Array( ) -> a function.\
+\
+-Push &pop\
+   -Push: adding an item to the end of array, tells us the length as well. \
+   -Pop:removes the last item. arrayName.pop( )\
+-shift/unshift\
+   -shift: removing in the beginning. \
+   -unshift: adding from the beginning.\
+-indexOf\
+ Tries to find where an argument in a given array. \
+ If it doesn't find anything then it returns -1\
+-slice \
+: copying the selected items and make new array.\
+ ***Doesn't make any change for the original array's items. \
+To copy the entire thing: arrayName.slice()\
+\
+\uc0\u160 \u160 <object>\
+-Using \{ \} to make an object. Single key value for each variable. \
+objects has no order\
+-can load by [Object.name] -> \
+**** except the value starts with a number/ a space b/t words\
+ -Can hold any type of data like array.\
+-works like dictionary! ! !\
+-vs array.\
+In array number(key) and value make a pair!  In Object Key(anything) and value make a pair.\
+-Nested objets and array. *** one step at a time!\
+}
